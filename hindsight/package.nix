@@ -31,7 +31,7 @@ python3.pkgs.buildPythonApplication rec {
   meta = with lib; {
     description = "Web browser forensics for Google Chrome/Chromium";
     homepage = "https://github.com/obsidianforensics/hindsight";
-    license = licenses.apsl20;
+    license = licenses.asl20;
     platforms = platforms.all;
     maintainers = with maintainers; [ MikeHorn-git ];
     mainProgram = "hindsight";

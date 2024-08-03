@@ -7,6 +7,7 @@
 python3.pkgs.buildPythonApplication rec {
   pname = "bmc-tools";
   version = "3.0.2";
+  format = "other";
 
   src = fetchFromGitHub {
     owner = "ANSSI-FR";
@@ -24,8 +25,6 @@ python3.pkgs.buildPythonApplication rec {
     cp $src/bmc-tools.py $out/bin/bmc-tools
     chmod +x $out/bin/bmc-tools
   '';
-
-  format = "other";
 
   meta = with lib; {
     description = "RDP Bitmap Cache parser";

@@ -21,7 +21,7 @@ python3.pkgs.buildPythonApplication rec {
   meta = with lib; {
     description = "A tool to help forensicate offline docker acquisitions";
     homepage = "https://github.com/google/docker-explorer";
-    license = licenses.apsl20;
+    license = licenses.asl20;
     platforms = platforms.all;
     maintainers = with maintainers; [ MikeHorn-git ];
     mainProgram = "docker-explorer";

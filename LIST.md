@@ -2,6 +2,10 @@
 - [x] bmc-tools
 - [x] docker-explorer
 - [x] hindsight
-- [ ] iLEAPP
+- [x] Mac-Locations-Scraper
 - [X] recuperabit
+- [X] regrippy
+- [X] timeliner
+- [X] usnparser
+- [ ] xLEAPP
 - [x] yarGen
