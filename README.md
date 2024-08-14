@@ -1,2 +1,9 @@
-# nixpkgs-forensics
-Nix Packages focused on Forensics tools.
+# Build
+## Single
+```bash
+nix-build -A packages.yarGen
+```
+## All
+```bash
+nix-build -A defaultPackage
+```

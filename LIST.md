@@ -3,6 +3,7 @@
 - [x] docker-explorer
 - [x] hindsight
 - [x] Mac-Locations-Scraper
+- [x] PsqlHunter
 - [X] recuperabit
 - [X] regrippy
 - [X] timeliner
